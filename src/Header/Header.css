@@ -1,0 +1,10 @@
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 4.5vh;
+}
+
+header {
+  height: 10vh;
+  border: 1px solid black;
+}
