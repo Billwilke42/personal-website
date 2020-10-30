@@ -2,9 +2,11 @@
   display: flex;
   justify-content: space-evenly;
   margin-top: 4.5vh;
+  width: 100vw;
 }
 
 header {
   height: 10vh;
+  width: 100vw;
   border: 1px solid black;
 }

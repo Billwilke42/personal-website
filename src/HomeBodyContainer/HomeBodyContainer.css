@@ -1,0 +1,32 @@
+.profile-pic {
+  height: 90vh;
+}
+
+.body {
+  display: flex;
+  height: 90vh;
+  width: 100vw;
+}
+
+.about-me {
+  padding: 170px;
+}
+@media only screen and (max-width: 1100px) {
+  .body {
+    flex-direction: column;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .about-me {
+    padding: 10px
+  }
+  .profile-pic {
+    height: 480px;
+  }
+  .body {
+    flex-direction: column;
+    height: auto;
+  }
+}
