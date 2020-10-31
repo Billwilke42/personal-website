@@ -5,32 +5,34 @@ import { NavLink } from 'react-router-dom'
 const Header = () => {
   return (
     <header>
-      <section className='nav'>
         <NavLink 
           to='/'
           className='nav-button'
+          activeClassName='nav-button-active'
           style={{textDecoration: 'none'}}>
           Home
         </NavLink>
         <NavLink
-          to='/'
+          to='/contact'
           className='nav-button'
+          activeClassName='nav-button-active'
           style={{textDecoration: 'none'}}>
           Contact
         </NavLink>
         <NavLink 
-          to='/'
+          to='/blog'
           className='nav-button'
+          activeClassName='nav-button-active'
           style={{textDecoration: 'none'}}>
           Blog
         </NavLink>
         <NavLink 
-          to='/'
+          to='/projects'
           className='nav-button'
+          activeClassName='nav-button-active'
           style={{textDecoration: 'none'}}>
           Projects
         </NavLink>
-      </section>
     </header>
   )
 }
