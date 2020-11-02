@@ -1,17 +1,24 @@
 import './App.css';
 import Header from '../Header/Header';
 import HomeBodyContainer from '../HomeBodyContainer/HomeBodyContainer'
-import { Route } from 'react-router-dom'
+import ContactContainer from '../ContactContainer/ContactContainer'
+import { Route, Switch } from 'react-router-dom'
 import React from 'react'
 
-const App = () => {
+function App() {
     return (
-      <div className="App">
-        <Route path='/'>
+      <main className="App">
+        <Switch>
+        <Route exact path='/'>
           <Header />
           <HomeBodyContainer />
         </Route>
-      </div>
+          <Route path='/contact/'>
+            <Header />
+            <ContactContainer />
+          </Route>
+        </Switch>
+      </main>
     );
 }
 

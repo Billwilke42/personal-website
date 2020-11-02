@@ -8,20 +8,20 @@ const Header = () => {
       <h2 className='title-name'>Bill Wilke</h2>
         <div className='nav-button-container'>
           <NavLink 
-            to='/'
+            exact to='/'
             className='nav-button'
             activeClassName='nav-button-active'
             style={{textDecoration: 'none'}}>
             Home
           </NavLink>
           <NavLink
-            to='/contact'
+            to='/contact/'
             className='nav-button'
             activeClassName='nav-button-active'
             style={{textDecoration: 'none'}}>
             Contact
           </NavLink>
-          <NavLink 
+          {/* <NavLink 
             to='/blog'
             className='nav-button'
             activeClassName='nav-button-active'
@@ -34,7 +34,7 @@ const Header = () => {
             activeClassName='nav-button-active'
             style={{textDecoration: 'none'}}>
             Projects
-          </NavLink>
+          </NavLink> */}
         </div>
     </header>
   )
