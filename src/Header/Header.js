@@ -21,7 +21,7 @@ const Header = () => {
             style={{textDecoration: 'none'}}>
             Contact
           </NavLink>
-          {/* <NavLink 
+          <NavLink 
             to='/blog'
             className='nav-button'
             activeClassName='nav-button-active'
@@ -34,7 +34,7 @@ const Header = () => {
             activeClassName='nav-button-active'
             style={{textDecoration: 'none'}}>
             Projects
-          </NavLink> */}
+          </NavLink>
         </div>
     </header>
   )
