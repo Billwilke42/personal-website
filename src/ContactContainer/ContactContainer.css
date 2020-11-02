@@ -1,0 +1,13 @@
+.contact-container {
+  height: 90vh;
+  margin-top: 10vh;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.follow-me {
+  height: 50vh;
+  width: 15vw
+}
