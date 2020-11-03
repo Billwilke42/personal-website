@@ -10,7 +10,7 @@ const ContactContainer = () => {
         <div>
           <div className='get-in-touch'>
             <h3>Get in touch</h3>
-            <p>Do you want to reach out for contract work or just to connect? Lets get in touch!</p>
+            <p className='contact-message'>Do you want to reach out for contract work or just to connect? Lets get in touch!</p>
           </div>
           <div className='follow-me'>
             <h3>Follow me</h3>
@@ -22,11 +22,11 @@ const ContactContainer = () => {
           </div>
         </div>
         <div className='send-a-message'>
+          <div className='left-section'>
           <div className='send-message-title'>
             <h3>Send me a message</h3>
             <p>(All fields are required)</p>
           </div>
-          <div className='left-section'>
             <h4>Who are you?</h4>
             <p>Name, Company, how should I call you</p>
             <input type='text'></input> 
