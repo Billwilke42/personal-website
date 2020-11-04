@@ -4,7 +4,7 @@ import './BlogContainer.css'
 function BlogContainer() {
   return (
     <section className='blog-container'>
-      <h6>Blog coming soon!</h6>
+      <h1>Blog coming soon!</h1>
     </section>
   )
 }

@@ -3,6 +3,7 @@ import Header from '../Header/Header';
 import HomeBodyContainer from '../HomeBodyContainer/HomeBodyContainer'
 import ContactContainer from '../ContactContainer/ContactContainer'
 import BlogContainer from '../BlogContainer/BlogContainer'
+import ProjectContainer from '../ProjectContainer/ProjectContainer'
 import { Route, Switch } from 'react-router-dom'
 import React from 'react'
 
@@ -21,6 +22,10 @@ function App() {
           <Route path='/blog/'>
             <Header />
             <BlogContainer />
+          </Route>
+          <Route path='/projects/'>
+            <Header/>
+            <ProjectContainer />
           </Route>
         </Switch>
       </main>
