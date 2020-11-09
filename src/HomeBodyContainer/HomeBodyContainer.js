@@ -7,10 +7,12 @@ const HomeBodyContainer = () => {
     <section className='body'>
       <section className='top-container'>
         <div className='about-me'>
-          <h1 className='introduction'>Hi, I'm Bill</h1>
+          <h1 className='introduction'>Hi, I'm Bill.</h1>
           <h3 className='introduction-tag'> A Software Engineer based in Denver, CO.</h3>
         </div>
-        <img src={`${profilepic}`} alt='headshot' className='profile-pic'></img>
+        <div className='overlap-img'>
+          <img src={`${profilepic}`} alt='headshot' className='profile-pic'></img>
+        </div>
       </section>
     {/* <section className='right-side-aboutme'> */}
         {/* <h3 className='about-me-title'>About me:</h3> */}
