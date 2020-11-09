@@ -4,9 +4,36 @@
   display: flex;
   /* flex-direction: column; */
   justify-content: space-evenly;
-  background: rgb(21,94,99);
+  background: rgb(21,94,99); 
   background: linear-gradient(195deg, rgba(21,94,99,1) 23%, rgba(118,179,157,1) 100%);
+  
 }
+
+
+/* .contact-container {
+  background: linear-gradient(319deg, #155e63, #76b39d);
+  background-size: 400% 400%;
+
+  -webkit-animation: ContactContainerAnimation 0s ease infinite;
+  -moz-animation: ContactContainerAnimation 0s ease infinite;
+  animation: ContactContainerAnimation 0s ease infinite;
+} */
+
+/* @-webkit-keyframes ContactContainerAnimation {
+  0%{background-position:0% 23%}
+  50%{background-position:100% 78%}
+  100%{background-position:0% 23%}
+}
+@-moz-keyframes ContactContainerAnimation {
+  0%{background-position:0% 23%}
+  50%{background-position:100% 78%}
+  100%{background-position:0% 23%}
+}
+@keyframes ContactContainerAnimation {
+  0%{background-position:0% 23%}
+  50%{background-position:100% 78%}
+  100%{background-position:0% 23%}
+} */
 
 .follow-me {
   /* margin-top: 5vh; */
